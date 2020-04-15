@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
+// import {Image} from "react-native"
+import Img from 'react-image';
+
 
 class Landing extends Component {
     render(){
@@ -7,7 +10,7 @@ class Landing extends Component {
             <div style={{width: '100%', margin:'auto'}}>
                 <Grid className="landing-grid">
                     <Cell col={12}>
-                        <img
+                        <Img
                             src="https://tec-sense.com/wp-content/uploads/2019/09/avtar-man.png"
                             alt="avatar"
                             className="avatar-img"
