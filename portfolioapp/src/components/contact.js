@@ -9,15 +9,12 @@ class Contact extends Component {
           <Cell col={6}>
             <h2>Dioris Diaz</h2>
             <img
-              src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
+              src="https://media-exp1.licdn.com/dms/image/C4E03AQH1RFJUCcfd5w/profile-displayphoto-shrink_200_200/0?e=1592438400&v=beta&t=AEZWmFtkj7AQOd3spRPGkZTkmX5LcNgVEQo9TyNSlY8"
               alt="avatar"
               style={{ height: "250px" }}
             />
             <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
-              Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-              cupidatat non proident, sunt in culpa qui officia deserunt mollit
-              anim id est laborum.
+              Feel free to get in contact with Dioris. He's a pretty cool guy who's also super friendly.
             </p>
           </Cell>
           <Cell col={6}>

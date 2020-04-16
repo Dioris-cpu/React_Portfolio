@@ -5,6 +5,13 @@ background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10
 
 }
 
+.footer-color{
+background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
 .landing-grid{
   background: #0F2027;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to bottom, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
@@ -21,6 +28,8 @@ background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10
 .avatar-img{
   height: 250px;
   padding-top: 5em;
+
+  
 }
 
 .banner-text{
@@ -81,7 +90,7 @@ background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10
   text-align: center;
   justify-content: center;
   width: 80%;
-  height: 550px;
+  height: 200px;
   background: white;
   color: black;
   margin-bottom: 20px;
@@ -106,4 +115,46 @@ background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10
   font-size: 40px;
   padding-right: 5rem;
 
+}
+
+.about-body{
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+  padding-right: 5em;
+
+}
+
+.about-grid{
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  background: white;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.about-grid h1{
+  font-family: "Anton", sans-serif;
+  text-align: center;
+}
+
+
+
+.about-grid p {
+  font-family: "Oxygen", sans-serif;
+  font-weight: bold;
+}
+
+.about-grid hr {
+  border-top: 5px black;
+  width: 50%;
+  margin: auto;
+}
+h2 {
+  text-align: center;
 }
