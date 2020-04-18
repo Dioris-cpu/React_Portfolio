@@ -40,7 +40,7 @@ class Landing extends Component {
                 >
                   <i className="fa fa-github-square" aria-hidden="true" />
                 </a>
-                <a href="" rel="noopener noreferrer" target="_blank">
+                <a href="https://dioris-cpu.github.io/Homework-9/contactform/PDF_files/DiorisDresume%20(2).pdf" rel="noopener noreferrer" target="_blank">
                   <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
                 </a>
               </div>
