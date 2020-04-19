@@ -4,6 +4,7 @@ import { Grid, Cell } from "react-mdl";
 import Img from "react-image";
 // import resume from '../img/pdf/Dioris-Dev-Resume.pdf';
 // import { Footer, FooterLinkList, FooterSection } from "react-mdl";
+import avatarImg from "../img/Dioris1_0917.jpg";
 
 class Landing extends Component {
   render() {
@@ -12,7 +13,7 @@ class Landing extends Component {
         <Grid className="landing-grid">
           <Cell col={12}>
             <Img
-              src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/s960x960/94012583_1614974935319182_1476452053755625472_o.jpg?_nc_cat=105&_nc_sid=8024bb&_nc_ohc=uvxd49FsK9IAX90p6jN&_nc_ht=scontent-iad3-1.xx&_nc_tp=7&oh=34ae9f6d53e537c4e99505c3b38bfc50&oe=5EBD5A56"
+              src={avatarImg}
               alt="avatar"
               className="avatar-img"
             />
@@ -22,7 +23,7 @@ class Landing extends Component {
               <hr />
               <p>
                 {" "}
-                HTML/CSS | Bootstrap | Javascript | NodeJS | Express | React |
+                xxxHTML/CSS | Bootstrap | Javascript | NodeJS | Express | React |
                 MongoDB
               </p>
               <div className="social-links">

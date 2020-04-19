@@ -78,9 +78,7 @@ class Projects extends Component {
             </CardTitle>
             <CardText>
               This is a node application that allows you to add and delete notes
-              that you type in. In order to use this application follow the
-              directions listed below: Run 'npm install' Run 'nodemon npm start'
-              On your google chrome bowser type in localhost:3000
+              that you type in.
             </CardText>
             <CardActions border>
               <Button>
@@ -118,7 +116,8 @@ class Projects extends Component {
               EatDaBurger
             </CardTitle>
             <CardText>
-            This application allows the user to create his or her own burger and and gives them the options to devour it if they want to be clicking onto the devour button.
+              This application allows the user to create his or her own burger
+              and and gives them the options to devour it.
             </CardText>
             <CardActions border>
               <Button>
@@ -163,13 +162,7 @@ class Projects extends Component {
             <CardText>
               WishDish is a local restaurant ordering application that is
               designed to suggest the top 3 closest restaurants based on what
-              food you are craving. As a user you just have to choose out of the
-              three. This app is similar to Grubhub, UberEATS, DoorDash and
-              Caviar, however, the idea of this app was to tackle the paradox of
-              choice problem when it comes to ordering food in Philly,
-              especially on a local delivery food service app. This application
-              was designed in about 2 weeks at the Pennovation Center in
-              Philadelphia.
+              food you are craving.
             </CardText>
             <CardActions border>
               <Button>
@@ -207,8 +200,7 @@ class Projects extends Component {
               New York Times Search
             </CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's
+              As a user I would like to be able to be informed on the latest news and the NY times top stories.
             </CardText>
             <CardActions border>
               <Button>
@@ -246,8 +238,7 @@ class Projects extends Component {
               Drum kit
             </CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's
+              As a user and a fellow musician I'd like to be able to mess with sounds and that includes Drums.
             </CardText>
             <CardActions border>
               <Button>
@@ -291,9 +282,7 @@ class Projects extends Component {
             <CardText>
               As a user, I want to be able to view create and track daily
               workouts. I want to be able to log multiple exercises in a workout
-              on a given day. I should also be able to track the name, type,
-              weight, sets, reps, and duration of exercise. If the exercise is a
-              cardio exercise, I should be able to track my distance traveled.
+              on a given day.
             </CardText>
             <CardActions border>
               <Button>
@@ -335,8 +324,9 @@ class Projects extends Component {
               Employee Tracker
             </CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's
+              As a user, I want to be able to view my entire employee directory
+              at once so that I have quick access to their information. By
+              searching there name I can get quick access to there information.
             </CardText>
             <CardActions border>
               <Button>
