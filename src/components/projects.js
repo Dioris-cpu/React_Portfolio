@@ -13,6 +13,7 @@ import {
   CardText,
 } from "react-mdl";
 
+
 class Projects extends Component {
   constructor(props) {
     super(props);
@@ -37,8 +38,9 @@ class Projects extends Component {
               Trip Trips
             </CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's
+              Trip Tips is an application that assists the user in creating,
+              viewing, and reviewing user-generated trip itineraries including
+              itineraries for the most visited cities in the US. 
             </CardText>
             <CardActions border>
               <Button>
@@ -64,27 +66,28 @@ class Projects extends Component {
             </CardMenu>
           </Card>
 
-          {/* Note taker*/}
+          
+
+          {/* Quarantini*/}
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{
                 color: "black",
                 height: "176px",
-                background:
-                  "url(https://dioris-cpu.github.io/Homework-9/img/Screen%20Shot%202020-03-19%20at%2011.55.36%20AM.png) center / cover",
+                background: "url(https://user-images.githubusercontent.com/55450945/81483698-1a7fc500-920e-11ea-971a-b9d80e7099f2.png) center / cover",
+                  
               }}
             >
-              Note Taker
+              Quarantini
             </CardTitle>
             <CardText>
-              This is a node application that allows you to add and delete notes
-              that you type in.
+            Quarantini is an app that helps users make delicious cocktails when they're trapped at home. Whether searching old recipes or new, Quarantini has something for everyone. Kick back and get ready for some easy sipping!
             </CardText>
             <CardActions border>
               <Button>
                 <a
                   style={{ textDecoration: "none" }}
-                  href="https://github.com/Dioris-cpu/noteTaker"
+                  href="https://github.com/dannygibbz/Quarantini"
                 >
                   {" "}
                   GitHub
@@ -93,7 +96,7 @@ class Projects extends Component {
               <Button>
                 <a
                   style={{ textDecoration: "none" }}
-                  href="https://takerdioris.herokuapp.com"
+                  href="https://morning-springs-36292.herokuapp.com/"
                 >
                   Live Demo
                 </a>
@@ -200,7 +203,8 @@ class Projects extends Component {
               New York Times Search
             </CardTitle>
             <CardText>
-              As a user I would like to be able to be informed on the latest news and the NY times top stories.
+              As a user I would like to be able to be informed on the latest
+              news and the NY times top stories.
             </CardText>
             <CardActions border>
               <Button>
@@ -238,7 +242,8 @@ class Projects extends Component {
               Drum kit
             </CardTitle>
             <CardText>
-              As a user and a fellow musician I'd like to be able to mess with sounds and that includes Drums.
+              As a user and a fellow musician I'd like to be able to mess with
+              sounds and that includes Drums.
             </CardText>
             <CardActions border>
               <Button>

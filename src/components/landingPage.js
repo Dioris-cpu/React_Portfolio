@@ -5,6 +5,7 @@ import Img from "react-image";
 // import resume from '../img/pdf/Dioris-Dev-Resume.pdf';
 // import { Footer, FooterLinkList, FooterSection } from "react-mdl";
 import avatarImg from "../img/Dioris1_0917.jpg";
+import resume from "../img/pdf/Dioris Dev Resume (2).pdf";
 
 class Landing extends Component {
   render() {
@@ -12,18 +13,14 @@ class Landing extends Component {
       <div style={{ width: "100%", margin: "auto" }}>
         <Grid className="landing-grid">
           <Cell col={12}>
-            <Img
-              src={avatarImg}
-              alt="avatar"
-              className="avatar-img"
-            />
+            <Img src={avatarImg} alt="avatar" className="avatar-img" />
             <div className="banner-text">
               <h1>Full Stack Web Developer</h1>
 
               <hr />
               <p>
                 {" "}
-                xxxHTML/CSS | Bootstrap | Javascript | NodeJS | Express | React |
+                HTML/CSS | Bootstrap | Javascript | NodeJS | Express | React |
                 MongoDB
               </p>
               <div className="social-links">
@@ -41,7 +38,7 @@ class Landing extends Component {
                 >
                   <i className="fa fa-github-square" aria-hidden="true" />
                 </a>
-                <a href="https://dioris-cpu.github.io/Homework-9/contactform/PDF_files/DiorisDresume%20(2).pdf" rel="noopener noreferrer" target="_blank">
+                <a href={resume} rel="noopener noreferrer" target="_blank">
                   <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
                 </a>
               </div>
