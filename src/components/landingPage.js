@@ -5,7 +5,7 @@ import Img from "react-image";
 // import resume from '../img/pdf/Dioris-Dev-Resume.pdf';
 // import { Footer, FooterLinkList, FooterSection } from "react-mdl";
 import avatarImg from "../img/Dioris1_0917.jpg";
-import resume from "../img/pdf/Dioris Dev Resume (2).pdf";
+import resume from "../img/pdf/Dioris Dev Resume (3).pdf";
 
 class Landing extends Component {
   render() {
